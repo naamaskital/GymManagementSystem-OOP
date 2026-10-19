@@ -181,11 +181,13 @@ This makes the system easier to debug, test, and understand.
 
 ## How to Run
 
-Compile the project:
+From the repository root, compile the Java sources:
 
 ```bash
-javac Main.java
+javac Main.java gym/Exception/*.java gym/customers/*.java gym/management/*.java gym/management/Sessions/*.java
 ```
+
+Alternatively, open the repository root in a Java IDE and compile all source files there.
 
 Run the program:
 
